@@ -1,0 +1,1080 @@
+<!--
+    Author: Melinda Hasselbring
+    File: Index.html (jquery mobile)
+    Date: May 03, 2018
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Cakes &amp; Designs</title>
+
+    <link rel="stylesheet" href="../css/my-theme.css" />
+    <link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+<!--    <link rel="stylesheet" href="../css/jquery.mobile.theme-1.4.5.min.css" type="text/css">-->
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.css" type="text/css">
+
+    <link href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="../css/my-theme.css" />
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
+</head>
+
+<style>
+    body{
+        max-width: 700px;
+    }
+    header {
+        font-family: 'Tangerine', cursive;
+        font-size: 30px;
+        font-weight: 900;
+        padding: 0;
+    }
+    
+    .ui-header .ui-title {
+        padding: 0;
+        font-size: 1.5em;
+/*        margin-left: auto;*/
+        text-align-last: center;
+    }
+    
+    p.footer-nav {
+        color: #fff;
+        
+    }
+    main h1 {
+        font-family: 'Tangerine', cursive;
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    main h2 {
+        width: 500px;
+    }
+    
+    main.intro h2,
+    h4,
+    h3,
+    p {
+        margin-left: 20px;
+    }
+    
+    section,
+    main {
+        background-image: url("../images/mcd.png");
+    }
+    
+    .pinkrose {
+        color: #f6a2b4;
+    }
+    
+    article h1 {
+        font-family: 'Tangerine', cursive;
+    }
+    
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 1em;
+        border-radius: 12px;
+    }
+    
+    .img-rounded {
+        border-radius: 12px;
+        border: 2px;
+        float: left;
+        margin-right: 20px;
+    }
+    
+    blockquote {
+        display: block;
+        margin: .1em;
+        position: relative;
+        text-align: center;
+        /*Font*/
+        font-family: 'Tangerine', cursive;
+        font-size: 2em;
+        line-height: 1.2;
+        color: #666;
+    }
+    
+    .sidebar {
+        float: right;
+        width: 100%;
+        max-width: 250px;
+        padding-top: 0px;
+        /*      border: 1px solid #ddd;*/
+        position: relative;
+    }
+    
+    img.social {
+        display: inline-block;
+        width: 4em;
+        height: 4em;
+        margin-top: .5em;
+        margin-right: .3em;
+        text-align: center;
+        box-shadow: 0;
+        box-shadow: none;
+    }
+    
+    img#passion {
+        box-shadow: none;
+        margin-bottom: 0;
+        max-width: 50%;
+    }
+    
+    #connect {
+        float: right;
+        position: absolute;
+    }
+    
+    #submit {
+        text-align: center;
+    }
+    
+    footer p {
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .footer-copy {
+        font-size: .8em;
+        font-style: italic;
+        font-weight: normal;
+    }
+    
+    #dropdown-nav {
+        text-align: center;
+        
+    }
+</style>
+
+<body>
+    <!--  Homepage -->
+    <section data-role="page" data-theme="d" id="home">
+        <header data-role="header">
+            <h1>Melinda's Cakes &amp; Designs</h1>
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top btn-active ui-state-persist">Home</a></li>
+                    <li><a href="#designs" class="ui-btn ui-icon-info ui-btn-icon-top">Cakes &amp; Designs</a></li>
+                    <li><a href="#courses" class="ui-btn ui-icon-heart ui-btn-icon-top">Classes</a></li>
+                    <li><a href="#contactus" class="ui-btn ui-icon-phone ui-btn-icon-top">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main data-role="main" class="ui-content intro">
+
+            <section class="sidebar">
+                <div id="connect">
+
+                    <a href="https://github.com/MelindaHasselbring"><img src="../images/icon-fb.png" class="social" alt="facebook"></a>
+
+                    <a href="https://www.linkedin.com/in/melindahasselbring/"><img src="../images/icon-tw.png" class="social" alt="tweeter"></a>
+
+                    <a href="https://stackoverflow.com/users/7696403/melh"><img src="../images/icon-pi.png" class="social" alt="pinterest"></a>
+                </div>
+            </section>
+
+            <h2>Cakes, cupcakes &amp; more...</h2>
+
+            <main data-role="main" class="ui-content">
+                <div class="img-rounded"><img src="../images/M.jpg" alt="3cookies"></div>
+
+                <h1 id="welcome">Welcome to Melinda's Cakes &amp; Designs!</h1>
+
+                <p>Born in the Philippines, Melinda moved to San Diego in 2004 away fron the glitz and glamour of Los Angeles. San Diego, a paradise, where she quickly fell in love with it's mild year-round climate and natural deep-water harbor, enjoys snorkling, growing orchids and decorating cakes. As a hobby, she loves to a put smile on your face by making you a gorgeous cake designs. Her motto...
+                    <blockquote class="pinkrose"> "The noblest art is that of making others smile." </blockquote>
+                </p>
+
+                <h3>Testimonials</h3>
+                <div data-role="collapsible-set">
+                    <div data-role="collapsible">
+                        <h1>"Like a royalty"</h1>
+                        <p>
+                            “We were treated like royalty and enjoyed simply divine all hand-made treats on fine china with silver and fresh flowers.”
+                            <br> ~ Chris H, CA</p>
+                    </div>
+
+                    <div data-role="collapsible">
+                        <h1>"Hidden gem"</h1>
+                        <p>
+                            “Wow! What a hidden gem. Went here for a baby shower. The service was great, tea was great, and wow, the food was extraordinary. I don't think there was a single thing I didn't like. The most un-delicious thing was probably the fruit.”
+                            <br> The scones were so perfect that I'll definitely be ordering a dozen for whatever excuse I can come up with soon. I'm hoping to bring my mother in law here next!.”
+                            <br> ~ Charlene C., CA</p>
+                    </div>
+
+                    <div data-role="collapsible">
+                        <h1>“Nothing compares.”</h1>
+                        <p>“My whole family uses this bakery for any &amp; every event! The staff is always helpful and nice. I will find any reason to go get their cupcakes!! Cupcakes will never be the same to me. Nothing compares.”
+                            <br> ~ Roanoke, CA</p>
+                    </div>
+
+                    <div data-role="collapsible">
+                        <h1>“Beautiful as I had imagined.”</h1>
+                        <p>“I ordered a cake from Elegant Cakery for my mother's 50th Birthday Celebration in San Diego.
+                            <br> On my first visit to the Bakery I had a consultation with one of the staff members. The staff member I was paired with did an amazing job explaining my options. When we moved onto pricing I was surprised at the cost. At this point the staff member did not shame me on my price cap and worked very hard to get me to the right price point with the kind of cake I wanted.
+                            <br> I picked up the cake a few weeks later and it was just as beautiful as I had imagined. Thank you Melinda for making my mother's birthday extra special.”
+                            <br> ~ Osalunosse O. Austin, TX</p>
+                    </div>
+
+                    <div data-role="collapsible">
+                        <h1>“Best cupcakes...”</h1>
+                        <p>“This place is amazing. Best cupcakes I have had in Texas! I went and got 3 dozen cupcakes for my 25th birthday. They let us try flavors and they gave me a free cupcake with candles in it. You can tell that they want to keep their customers happy, no matter what it takes. Strawberry was my favorite but everyone at the party loved the German chocolate and red velvet.”
+                            <br> ~ Robert C, CA</p>
+                    </div>
+                </div>
+
+                <a href="#home" data-transition="flow"></a>
+
+            </main>
+
+            <footer data-role="footer" data-position="fixed">
+
+                <p class="footer-nav">
+                    <a href="#home">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#designs">Cakes &amp; Designs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#courses">Classes</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="#contactus">Contact</a>
+                </p>
+
+                <p class="footer-copy">Copyright &copy; 2018, Melinda's Cakes &amp; Designs | Website Design by M Studios</p>
+            </footer>
+    </section>
+    <!--  End Homepage -->
+
+    <!--  Cakes & Designs -->
+    <section data-role="page" data-theme="d" id="designs">
+        <header data-role="header">
+            <h1>Melinda's Cakes &amp; Designs</h1>
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+                    <li><a href="#designs" class="ui-btn ui-icon-info ui-btn-icon-top btn-active ui-state-persist">Cakes &amp; Designs</a></li>
+                    <li><a href="#courses" class="ui-btn ui-icon-heart ui-btn-icon-top">Classes</a></li>
+                    <li><a href="#contactus" class="ui-btn ui-icon-phone ui-btn-icon-top">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main data-role="main" class="ui-content intro">
+
+            <section class="sidebar">
+                <div id="connect">
+
+                    <a href="https://github.com/MelindaHasselbring"><img src="../images/icon-fb.png" class="social" alt="facebook"></a>
+
+                    <a href="https://www.linkedin.com/in/melindahasselbring/"><img src="../images/icon-tw.png" class="social" alt="tweeter"></a>
+
+                    <a href="https://stackoverflow.com/users/7696403/melh"><img src="../images/icon-pi.png" class="social" alt="pinterest"></a>
+                </div>
+            </section>
+
+            <h2>Cakes &amp; Designs </h2>
+            <h1 text-align="center">Party... the way to celebrate!</h1>
+            <div><img src="../images/cakes.jpg" alt="celebrate"></div>
+            <div class="ui-content">
+                <!-- ul[data-role=listview]>li*5>a[href=#]{Link $} -->
+                <ul data-role="listview" data-filter="true" data-filter-placeholder="Search ..." data-inset="true">
+
+                    <li><a href="#layer1" class="ui-shadow" data-transition="pop">1 layer cake</a></li>
+                    <li><a href="#fondant" class="ui-shadow" data-transition="pop">Fondant covered cake</a></li>
+                    <li><a href="#buttercream" class="ui-shadow" data-transition="pop">Buttercream</a></li>
+                    <li><a href="#wedding" class="ui-shadow" data-transition="pop">Wedding cakes</a></li>
+                    <li><a href="#carved" class="ui-shadow" data-transition="pop">Custom Carved cakes</a></li>
+                    <li><a href="#bridal" class="ui-shadow" data-transition="pop">Elegant cupcakes</a></li>
+                    <li><a href="#cookies" class="ui-shadow" data-transition="pop">Stunning Cookies</a></li>
+                    <li><a href="#cakepop" class="ui-shadow" data-transition="pop">Cake pops</a></li>
+                    <li><a href="#macaron" class="ui-shadow" data-transition="pop">French Macarons</a></li>
+                    <li><a href="#buffet" class="ui-shadow" data-transition="pop">Dessert Buffets</a></li>
+                </ul>
+        </main>
+
+        </div>
+
+        <footer data-role="footer" data-position="fixed">
+
+            <p class="footer-nav">
+                <a href="#home">home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#designs">Cakes &amp; Designs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#courses">Classes</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#contactus">Contact</a>
+            </p>
+
+            <p class="footer-copy">Copyright &copy; 2018, Melinda's Cakes &amp; Designs | Website Design by M Studios</p>
+        </footer>
+    </section>
+    <!--  End Designs -->
+
+    <!--  Classes -->
+    <section data-role="page" data-theme="d" id="courses">
+        <header data-role="header">
+            <h1>Melinda's Cakes &amp; Designs</h1>
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top ">Home</a></li>
+                    <li><a href="#designs" class="ui-btn ui-icon-info ui-btn-icon-top">Cakes &amp; Designs</a></li>
+                    <li><a href="#courses" class="ui-btn ui-icon-heart ui-btn-icon-top btn-active ui-state-persist">Classes</a></li>
+                    <li><a href="#contactus" class="ui-btn ui-icon-phone ui-btn-icon-top">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main data-role="main" class="ui-content intro">
+            <section class="sidebar">
+                <div id="connect">
+
+                    <a href="https://github.com/MelindaHasselbring"><img src="../images/icon-fb.png" class="social" alt="facebook"></a>
+
+                    <a href="https://www.linkedin.com/in/melindahasselbring/"><img src="../images/icon-tw.png" class="social" alt="tweeter"></a>
+
+                    <a href="https://stackoverflow.com/users/7696403/melh"><img src="../images/icon-pi.png" class="social" alt="pinterest"></a>
+                </div>
+            </section>
+            <h2>Cake Decorating Classes</h2>
+            <h1 text-align="center">Learn the art of cake designs...</h1>
+            <div><img src="../images/celebrate.jpg" alt="celebrate"></div>
+            <p>Looking for a unique party idea for you and/or your kids? Well, Melinda's Cakes &amp; Designs offers Cake Decorating Classes! What a Super fun experience for kids (and/or adults) to learn while making delicious art! While kid’s birthday parties are most common, they can be held for adults too: birthday parties, showers, business/industry events and more. No matter what the occasion, bring a smile, some friends, and your creativity!</p>
+
+            <a href="#courses" data-transition="pop"></a>
+        </main>
+
+        <article data-role="main" class="ui-content">
+            <h3>Classes Offered</h3>
+            <div data-role="collapsible-set">
+                <div data-role="collapsible">
+                    <h1>Cupcakes Made Easy</h1>
+                    <p>Objective: Teach basic skills for cupcake decorating.
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 2 hours</p>
+                        <p>Overview: Students will learn simple hints and techniques for baking and decorating amazing cupcakes.</p>
+                        <p>Supply list:</p>
+                         Gum Paste Storage Board
+                        <br>  Brush
+                        <br>  9-inch Fondant Roller
+                        <br>  9-inch angled spatula
+                        <br>  Dusting pouch
+                        <br>  Fondant Cut Out set
+                        <br>  Icing Colors
+                        <br>  I 12 in. Disposable bags
+                        <br>  Tips #230, 1M, 2A
+                        <br>  Color Mist
+                        <br>  Wilton Ready-To-Use Rolled Fondant Multi Pack
+                        <br>  Wilton Ready to Use White Decorator
+                        <br> Icing – 1 lb. can
+                        <p>Items from Home  Apron</p>
+                         Ruler
+                        <br>  Apron
+                        <br>  Ruler
+                        <br>  Small paper cups  Scissors
+                        <br>  Toothpicks
+                        <br>  6-12 cupcakes
+                        <br>  Small amount of confectioners’ sugar
+                        <br>  Disposable cloth or paper towels
+                        <br>  Gallon size plastic bags (for cleanup) 
+                        <br>   Small container of water
+                        <br>  Small container of vegetable shortening  Plastic wrap
+                        <br>
+                    </p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>Gum Paste Flower Basics</h1>
+                    <p>Objective: Teach basic skills for making flowers out of gum paste.
+                        <p>Recommended Ages: Teen to adult
+                            <p>Time Required: 2 hours
+                                <p>Overview: Students will learn the basics of working with gum paste. They will also learn basic techniques such as molding, ruffling, imprinting and using cutters and ejectors to create flowers such as the blossom, daisy, dogwood, and leaf.</p>
+                                <p>Supply list:</p>
+                                 Gum Paste Storage Board
+                                <br>  5 pc. Decorating Brush Set
+                                <br>  9-inch Fondant Roller
+                                <br>  9-inch angled spatula
+                                <br>  Dusting pouch
+                                <br>  Gum Paste Cutters Set
+                                <br>  Thin and thick fondant shaping foam       
+                                <br>  Ball tool
+                                <br>  Vanilla extract
+                                <br>  Gum paste
+                                <br>  Pearl dust (color of your choice)
+                                <br>  FoodWriter Fine Tip Edible markers 
+                                <br>  Nature Fondant &amp; Gum Paste Mold 
+                                <br>  Icing colors of your choice
+                                <p>Items from Home </p>
+                                 Apron
+                                <br>  Ruler
+                                <br>  Small paper cups
+                                <br>  Scissors
+                                <br>  Toothpicks
+                                <br>  Disposable cloth or paper towels
+                                <br>  Gallon size plastic bags (for cleanup)
+                                <br>  Small container of water
+                                <br>  Small container of vegetable shortening 
+                                <br>  Plastic wrap
+                                <br>  Yellow sugar (optional)
+                            </p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>Roses! Roses! Roses!</h1>
+                    <p>Objective: Teach basic skills for making roses out of gum paste. </p>
+                    <p>Recommended Ages: Teen to adult</p>
+                    <p>Time Required: 2 1/2 hours or two 1 1⁄2 hour sessions
+                        <p>Overview: Students will learn the basics of working with gum paste and fondant. They will use these skills to create a rose in four different styles: loopy, ribbon, rose bud, full blossom.</p>
+                        <p>Supply list:</p>
+                         Gum Paste Storage Board
+                        <br>  Brush
+                        <br>  9-inch Fondant Roller
+                        <br>  9-inch spatula
+                        <br>  Dusting pouch
+                        <br>  Large Rose cutter
+                        <br>  Thin and thick fondant shaping foam  Ball tool
+                        <br>  Gum paste
+                        <br>  Wilton Ready-To-Use Rolled Fondant (white with icing colors to tint or pre- colored)
+                        <p>Items from Home  Apron</p>
+                         Ruler
+                        <br>  Uncooked spaghetti
+                        <br>  Foam cup
+                        <br>  Small paper cup
+                        <br>  Scissors
+                        <br>  Toothpicks
+                        <br>  Small amount of confectioners’ sugar 
+                        <br>   Disposable cloth or paper towels
+                        <br>  Gallon size plastic bags (for cleanup) 
+                        <br>  Small container of water
+                        <br>  Small container of vegetable shortening 
+                        <br>  Plastic wrap
+                        </p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>Building Tiered Cakes, 1-2-3</h1>
+                    <p>Objective: Teach basic skills for creating tiered cakes
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 1 session, 2 hours – extra time and supplies are required for decorating the cake</p>
+                        <p>Overview: Students will learn the basics of cake construction and assemble a 3 tiered cake. They will learn about ways to display cakes and the basics of transportation, set up and serving.</p>
+                        <p>Supply list:</p>
+                         Bamboo Dowel Rods or Plastic Dowel Rods
+                        <br>  12” Cake Base
+                        <br>  8” Cake Circles
+                        <br>  6” Cake Circles
+                        <br>  10” Cake Circles
+                        <br>  Iced two-layer cakes - 6”, 8” and 10” on cake circles of the same size
+                        <br>
+                        <p>Items from Home</p>
+                         Apron
+                        <br>  Ruler
+                        <br>  Scissors
+                        <br>  Small tack hammer
+                        <br>  Small clean pencil sharpener
+                        <br>  Small level
+                        <br>  Pen or pencil
+                        <br>  Damp cloth for clean up
+                        <br>  Sturdy base to transport completed cake
+                        <br>
+                    </p>
+                </div>
+                
+                <div data-role="collapsible">
+                    <h1>Winter Poinsettia </h1>
+                    <p>Objective: Teach basic skills for making sugarbpoinsetia
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 1 session, 3 hours</p>
+                        <p>Overview: Students will learn advance skills in making gumpaste flowers. They will learn about ways to
+                        create a bouqute of sugar flowers.</p>
+                        <p>Supply list:</p>
+                                 Gum Paste Storage Board
+                                <br>  5 pc. Decorating Brush Set
+                                <br>  9-inch Fondant Roller
+                                <br>  9-inch angled spatula
+                                <br>  Dusting pouch
+                                <br>  Gum Paste Cutters Set
+                                <br>  Thin and thick fondant shaping foam
+                                <br>  Cornstarch in a bag/Dusting powder
+                                <br>  Floral tape
+                                <br>  Gumpaste
+                                <br>
+                                <p>Items from Home: </p>
+                                 Apron
+                                <br>  Ruler
+                                <br>  Small paper cups
+                                <br>  Scissors
+                                <br>  Toothpicks
+                                <br>  Disposable cloth or paper towels
+                                <br>  Gauge 22 wire &amp; wire cutters
+                                <br>  Floral tape
+                                <br>
+                    </p>
+                </div>
+                
+                
+                <div data-role="collapsible">
+                    <h1>Basic Cookie Decorating with Royal Icing</h1>
+                    <p>Objective: Teach basic skills for cupcake decorating.
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 2 hours</p>
+                        <p>Overview: Students will learn a variety of cookie decorating techniques using royal icing.</p>
+                        <p>Supply list:</p>
+                         Disposable Decorating Bags or Parchment Bags
+                        <br>  Tips2and3
+                        <br>  Decorator Brush
+                        <br>  FoodWriter Edible Color Markers 
+                        <br>  9” Spatula
+                        <br>  Icing Colors or Color Right Color System
+                        <br>  Cookie Flooding Decorating Kit (optional)
+                        <p>Items from Home </p>
+                         Apron
+                        <br>  Ruler
+                        <br>  Small bowls or disposable cups (4-5 for mixing colors)
+                        <br>  Scissors
+                        <br>  Toothpicks
+                        <br>  Disposable cloth or paper towels
+                        <br>  2-3 pieces of plain paper Waxed Paper or Parchment Paper
+                        <br>  Cookie Cutters (to create 3D pattern)
+                        <br>  Pen or pencil
+                        <br>  Gallon size plastic bags (for cleanup)
+                        <br>  Container to transport cookies
+                        <br>  Confectioners’ sugar
+                        <br>  Small container of water  1-2 recipes of Royal Icing 
+                        <br>  1 dozen sugar cookies
+                    </p>
+                </div>
+                
+                <div data-role="collapsible">
+                    <h1>Piping with Royal Icing</h1>
+                    <p>Objective: Teach advance skills for piping with royal icing.
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 2 hours</p>
+                        <p>Overview: Students will learn a variety of cookie decorating techniques using royal icing.</p>
+                        <p>Supply list:</p>
+                         Disposable Decorating Bags or Parchment Bags
+                        <br>  Tips2and3
+                        <br>  Decorator Brush
+                        <br>  FoodWriter Edible Color Markers 
+                        <br>  9” Spatula
+                        <br>  Icing Colors or Color Right Color System
+                        <br>  Iced two-layer cakes - 6”, 8” or  8”, 10” on cake circles of the same size
+                        <br>
+                        <p>Items from Home </p>
+                         Apron
+                        <br>  Ruler
+                        <br>  Small bowls or disposable cups (4-5 for mixing colors)
+                        <br>  Scissors
+                        <br>  Toothpicks
+                        <br>  Disposable cloth or paper towels
+                        <br>  2-3 pieces of plain paper Waxed Paper or Parchment Paper
+                        <br>  Cookie Cutters (to create 3D pattern)
+                        <br>  Pen or pencil
+                        <br>  Gallon size plastic bags (for cleanup)
+                        <br>  Container to transport cookies
+                        <br>  Confectioners’ sugar
+                        <br>  Small container of water 
+                        <br>  1-2 recipes of Royal Icing 
+                        <br>  Iced two-layer cakes - 6”, 8” or  8”, 10” on cake circles of the same size
+                </div>
+                
+                <div data-role="collapsible">
+                    <h1>String Design with Royal Icing</h1>
+                    <p>Objective: Teach advance skills in piping royal icing.
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 2 hours</p>
+                        <p>Overview: Students will learn a variety of Lambeth piping techniques using royal icing.</p>
+                        <p>Supply list:</p>
+                         Disposable Decorating Bags or Parchment Bags
+                        <br>  Tips2and3
+                        <br>  Decorator Brush
+                        <br>  FoodWriter Edible Color Markers 
+                        <br>  9” Spatula
+                        <br>  Icing Colors or Color Right Color System
+                        <br>  Iced two-layer cakes - 6”, 8” or  8”, 10” on cake circles of the same size
+                        <br>  Cakes: 4", 6" and 9" inch, coverd with fondant on cake circles of the same size
+                        <br>  Cake dowels
+                        <br>
+
+                        <p>Items from Home </p>
+                          Turntable
+                        <br>  Apron
+                        <br>  Ruler
+                        <br>  Small bowls or disposable cups (4-5 for mixing colors)
+                        <br>  Scissors
+                        <br>  Toothpicks
+                        <br>  Disposable cloth or paper towels
+                        <br>  2-3 pieces of plain paper Waxed Paper or Parchment Paper
+                        <br>  Cookie Cutters (to create 3D pattern)
+                        <br>  Pen or pencil
+                        <br>  Gallon size plastic bags (for cleanup)
+                        <br>  Container to transport cookies
+                        <br>  Confectioners’ sugar
+                        <br>  Small container of water 
+                        <br>  1-2 recipes of Royal Icing 
+                        <br>  Iced two-layer cakes - 6”, 8” or  8”, 10” on cake circles of the same size
+                        <br>  Damp cloth
+                        <br>  Pastry tips
+                        <u>
+                            <li>101 or 102 (rose petal tips)</li>
+                            <li>1.5 (PME tip), 2, 3, 5, 10 (rounds)</li>
+                            <li>14, 16, 18, 20, 22 (open stars)</li>
+                            <li>352 (notched V)</li>
+                       </u>
+                </div>
+                
+                <div data-role="collapsible">
+                    <h1>12 Assorted Sugar Flowers </h1>
+                    <p>Objective: Teach advance skills in sugar flower making
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 3 session, 3 hours each</p>
+                        <p>Overview: Students will learn advance skills in making gumpaste flowers which include;</p>
+                        
+                          <ol>
+                           <li>Stargazer Lily</li>
+                           <li>Tea Rose</li>
+                           <li>Cymbediun Orchid</li>
+                           <li>Tiger Lily</li>
+                           <li>Stephanotis</li>
+                           <li>Ivy Leaf</li>
+                           <li>Hygrendea</li>
+                           <li>Sunflower</li>
+                           <li>Gerbera Daisy</li>
+                           <li>DogWood</li>
+                           <li>Calla Lily</li>
+                           <li>Briar Rose</li>
+                           <li>Blossom</li>
+                          </ol>
+                         
+                        <p>Supply list:</p>
+                                 Gum Paste Storage Board
+                                <br>  5 pc. Decorating Brush Set
+                                <br>  9-inch Fondant Roller
+                                <br>  9-inch angled spatula
+                                <br>  Dusting pouch
+                                <br>  Gum Paste Cutters Set
+                                <br>  Thin and thick fondant shaping foam
+                                <br>  Cornstarch in a bag/Dusting powder
+                                <br>  Floral tape
+                                <br>  Gumpaste
+                                <br>  Fondant (pastel multipack) &amp; Gum Paste Mix
+                                <br>  Gumpaste Flower cutter set
+                                <br>  Gum paste rose base 
+                                <br>  6-inch floral wire set
+                                <br>  Lily statmen set
+                                <br>  Floral tape
+                                <br>  Flower shaping bowls (optional)
+                                <br>  Modeling Tool Set
+                                <br>  Wire cutters
+                                <br>  Green and white floral tape
+                                <br>  Paint palette
+                                <br>  Edible spray varnish
+                                <br>  Confectioner’s glaze
+                                <p>Items from Home: </p>
+                                 Apron
+                                <br>  Ruler
+                                <br>  Small paper cups
+                                <br>  Scissors
+                                <br>  Non stick board
+                                <br>  Disposable cloth or paper towels
+                                <br>  Wire cutters
+                                <br>  Fine-nosed pliers
+                                <br>
+                    </p>
+                </div>
+                   
+                <div data-role="collapsible">
+                    <h1>Advance Fondant Techniques</h1>
+                    <p>Objective: Teach advance fondant skills/techniques
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 3 session, 3 hours each</p>
+                        <p>Overview: Students will learn advance fondant skills &amp; techniques. Projecys includes;</p>
+                        
+                    <ol>
+                           <li>Hand Painted Cake(6" round 3" tall, 1 lbs fondant)</li>
+                           <li>Stenciled Embossed Cake (8" square 5" tall, 2 lbs fondant)</li>
+                           <li>Applied Design Cake (6" square 2" tall, 1 lbs fondant)</li>
+                           <li>Inlaid Technique Cake (5" square 5" tall, 1 lbs fondant)</li>
+                           <li>Lace Technique Cake (9" x 13" 3" tall, 2.5 lbs fondant)</li>
+                    </ol>
+                         
+                        <p>Supply list:</p>
+                                 Gum Paste Storage Board
+                                <br>  5 pc. Decorating Brush Set
+                                <br>  9-inch Fondant Roller
+                                <br>  9-inch angled spatula
+                                <br>  Dusting pouch
+                                <br>  Gum Paste Cutters Set
+                                <br>  Thin and thick fondant shaping foam
+                                <br>  Cornstarch in a bag/Dusting powder
+                                <br>  Modeling Tool Set
+                                <br>  Paint palette
+                                <br>  Edible spray varnish
+                                <br>  Confectioner’s glaze
+                                <br>  Round cutter set
+                                <br>  Luster dust
+                                <br>  Cutters or templates
+                                <br>  Lace stamps, texture etc.
+                                <br>  Sugar glue
+                                <br>  Royal icing in bag with small tip
+                               <br>  Clear soft plastic trash bags Straws
+                                <br>  Sheet pan
+                                <br>  Blossom cutters
+                                <br>  18-gauge floral wire Wire cutters Styrofoam block
+                                <p>Items from Home: </p>
+                                 Apron
+                                <br>  Ruler
+                                <br>  Small paper cups
+                                <br>  Scissors
+                                <br>  Non stick board
+                                <br>  Disposable cloth or paper towels
+                                <br>  Wire cutters
+                                <br>  Fine-nosed pliers
+                                <br>  Fondant smoothers
+                                <br>  Large rolling pin 18" ruler (or longer)
+                                <br>  Tweezers
+                                <br>  Alcohol - vodka
+                                <br>  Stencil
+                                <br>  Mop brush
+                                <br>  Sheet pan with parchment
+                    </p>
+                </div>
+                   
+               <div data-role="collapsible">
+                    <h1>Cake Design Made Easy</h1>
+                    <p>Objective: Wedding Dress Cake
+                        <p>Recommended Ages: Teen to adult</p>
+                        <p>Time Required: 3 session, 3 hours each</p>
+                        <p>Overview: Students prepare and assemble a carved wedding dress cake </p>
+                        <p>Supply list:</p>
+                                 Gum Paste Storage Board
+                                <br>  5 pc. Decorating Brush Set
+                                <br>  9-inch Fondant Roller
+                                <br>  9-inch angled spatula
+                                <br>  Dusting pouch
+                                <br>  Gum Paste Cutters Set
+                                <br>  Thin and thick fondant shaping foam
+                                <br>  Cornstarch in a bag/Dusting powder
+                                <br>  Floral tape
+                                <br>  Gumpaste
+                                <br>  Fondant (pastel multipack) &amp; Gum Paste Mix
+                                <br>  Gumpaste Flower cutter set
+                                <br>  Gum paste rose base 
+                                <br>  6-inch floral wire set
+                                <br>  Flower shaping bowls (optional)
+                                <br>  Modeling Tool Set
+                                <br>  Paint palette
+                                <br>  Edible spray varnish
+                                <br>  Confectioner’s glaze
+                                <br>  Buttercream
+                                <br>  Cake
+                                <br>  Fondant
+                                <br>  Modeling chocolate • Gum paste
+                                <br>  Royal icing
+                                <br>  Confectioners’ sugar
+                                <br>  Small container of vegetable shortening
+                                <br>  Small container of water
+                                <br>  Vodka
+                                <br>  Shimmer dust (pearl and silver)
+                                <br>  Premade pearls and silver dragées                   
+                                <p>Items from Home: </p>
+                                 Apron
+                                <br>  Ruler
+                                <br>  Small paper cups
+                                <br>  Scissors
+                                <br>  Non stick board
+                                <br>  Disposable cloth or paper towels
+                                <br>  Wire cutters
+                                <br>  Fine-nosed pliers
+                                <br>  Cake turntable
+                                <br>  Large rolling pin
+                                <br>  Small offset spatula
+                                <br>  Large offset spatula
+                                <br>  Straight-edge bench scrapper
+                                <br>  Flexible bench scrapper
+                    </p>
+                </div>
+                </div>
+        </article>
+
+        <article data-role="main" class="ui-content" id="intro">
+            <h3>Frequently Asked Questions and Other Notes</h3>
+            <div data-role="collapsible-set">
+                <div data-role="collapsible">
+                    <h1>Price</h1>
+                    <p>Price is $400.00 for first 6 guests (minimum charge of ). Each additional guest is $75.00, up to 10 guests.</p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>What Do You Get?</h1>
+                    <ul>
+                        <li>Approx. 1.5 hours of instructions &amp; hands-on decorating (just depends on speed of students)</li>
+                        <li>Certificate of Completion</li>
+                        <li>All of the delicious goodies created by the student to take home</li>
+                    </ul>
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>One-on-One class</h1>
+                    <p>$99.00 for 3 hours of instructions, materials NOT included</p>
+                </div>
+            </div>
+        </article>
+        </main>
+        <footer data-role="footer" data-position="fixed">
+
+            <p class="footer-nav">
+                <a href="#home">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#designs">Cakes &amp; Designs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#courses">Classes</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#contactus">Contact</a>
+            </p>
+
+            <p class="footer-copy">Copyright &copy; 2018, Melinda's Cakes &amp; Designs | Website Design by M Studios</p>
+        </footer>
+    </section>
+    <!--  End End Classes -->
+
+    <!--  Contact -->
+    <section data-role="page" data-theme="d" id="contactus">
+        <header data-role="header">
+            <h1>Melinda's Cakes &amp; Designs</h1>
+            <nav data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+                    <li><a href="#designs" class="ui-btn ui-icon-info ui-btn-icon-top">Cakes &amp; Designs</a></li>
+                    <li><a href="#courses" class="ui-btn ui-icon-heart ui-btn-icon-top">Classes</a></li>
+                    <li><a href="#contactus" class="ui-btn ui-icon-phone ui-btn-icon-top btn-active ui-state-persist">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main data-role="main" class="ui-content intro">
+            <section class="sidebar">
+                <div id="connect">
+
+                    <a href="https://github.com/MelindaHasselbring"><img src="../images/icon-fb.png" class="social" alt="facebook"></a>
+
+                    <a href="https://www.linkedin.com/in/melindahasselbring/"><img src="../images/icon-tw.png" class="social" alt="tweeter"></a>
+
+                    <a href="https://stackoverflow.com/users/7696403/melh"><img src="../images/icon-pi.png" class="social" alt="pinterest"></a>
+                </div>
+            </section>
+            <h2>Contact us </h2>
+            <h1 text-align="center">Hurry up, your seat is waiting... </h1>
+            <div><img src="../images/sample2.png" alt="celebrate"></div>
+            
+            <article class="ui-content" data-role="main">
+                <form action="" method="get">
+                    <fieldset class="ui-field-contain">
+
+                        <label for="address">Name:</label>
+                        <input type="text" name="name" id="name" value="" placeholder="First Name, Last Name">
+                    </fieldset>
+
+                    <fieldset class="ui-field-contain">
+                        <label for="address">Phone:</label>
+                        <input type="text" name="address" id="phone" value="" placeholder="(999) 888-7777">
+                    </fieldset>
+
+                    <fieldset class="ui-field-contain">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" value="" placeholder="Your email">
+                    </fieldset>
+
+                    <fieldset data-role="controlgroup">
+                        <legend>What is your question about? Choose one below.</legend>
+                        <input type="radio" name="radio-choice-v-2" id="radio-choice-v-2a" value="on" checked="checked">
+                        <label for="radio-choice-v-2a">Order a cake</label>
+                        <input type="radio" name="radio-choice-v-2" id="radio-choice-v-2b" value="off">
+                        <label for="radio-choice-v-2b">Cake Decoration Classes</label>
+                        <input type="radio" name="radio-choice-v-2" id="radio-choice-v-2c" value="other">
+                        <label for="radio-choice-v-2c">About cake designs</label>
+                    </fieldset>
+
+                </form>
+                </fieldset>
+
+                <fieldset class="ui-field-contain">
+                    <label for="details">Send me a message.</label>
+                    <textarea name="details" id="details"></textarea>
+                </fieldset>
+                
+                <fieldset class="ui-field-contain">
+                    <label for="flip">Subscribe to our mailing list.</label>
+                    <input type="checkbox" name="flip" id="flip" data-role="flipswitch" checked>
+                </fieldset>
+
+                <fieldset class="ui-field-contain">
+                    <label for="slider">Help us improve our services. </label>
+                    <input type="range" name="slider" id="slider" value="7" min="0" max="10" data-highlight="true">
+                </fieldset>
+
+                <div class="ui-field-contain" style="text-align: center">
+                    <button data-inline="true" type="submit" id="submit" value="Submit">Cancel</button>
+                    <button data-inline="true" type="submit" id="submit" value="Submit">Submit</button>
+                </div>
+
+            </article>
+            <hr>
+            <article data-role="main" class="ui-content" id="intro">
+                <h3>Where can you find us?</h3>
+                <div data-role="collapsible" data-collapsed="false">
+                    <h1>Address</h1>
+                    <p>357130 Burgener, San Diego, CA 92110 USA</p>
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>Call us</h1>
+                    <p>(619) 555-1234</p>
+
+                </div>
+
+                <div data-role="collapsible">
+                    <h1>Store Hours</h1>
+                    <p>Closed on Mondays</p>
+                    <p>Tuesdas through Fridays: 11am - 5pm</p>
+                    <p>Saturdays and Sundays: 10am - 5pm</p>
+                    </br>
+                    <ul>
+                        <li>By appointment only. No walk-ins.</li>
+                        <li>Reservations are required by phone with 24 hour advance notice.</li>
+                        <li>3-day advance cancellation notice required in order to avoid full charge.</li>
+                    </ul>
+                </div>
+            </article>
+        </main>
+        <footer data-role="footer" data-position="fixed">
+
+<!--
+           <select id="dropdown-nav">
+                <option value="">Navigate To...</option>
+                                    <option value="http://127.0.0.1:62274/pages/index.html">home</option>
+                                    <option> <a hhref="#designs">Cakes &amp; Designs</a></option>
+                                    <option> <a hhref="#courses">Classes</a></option>
+                                    <option> <a hhref="#contactus">Contact</a></option>
+                                    
+           
+            </select>
+-->
+           
+            <p class="footer-nav">
+                <a href="#home">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#designs">Cakes &amp; Designs</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#courses">Classes</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#contactus">Contact</a>
+            </p>
+
+            <p class="footer-copy">Copyright &copy; 2018, Melinda's Cakes &amp; Designs | Website Design by M Studios</p>
+        </footer>
+    </section>
+    <!--End End Contact -->
+
+    <!--Cakes & Designs DIALOG PAGES-->
+
+    <section data-role="page" id="layer1" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>1 layer cake</h1>
+            <div class="celebrate"><img src="../images/IMG_2869.jpg" alt="1 layer cake"></div>
+            <p>Simply elegant.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="fondant" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Fondant covered cake</h1>
+            <div class="celebrate"><img src="../images/IMG_2659.jpg" alt="Fondant covered cakes"></div>
+            <p>Fondant covered and painted cake.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="buttercream" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Buttercream covered cake</h1>
+            <div class="celebrate"><img src="../images/buttercream-flowers.jpg" alt="Buttercream"></div>
+            <p>"R" for roses and ranunculus flowers made of buttercream.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="wedding" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Wedding cake</h1>
+            <div class="celebrate"><img src="../images/wedding.jpg" alt="wedding"></div>
+            <p>Stuning purple umbre cake with gold.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="carved" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Bridal Gown Cake</h1>
+            <div class="celebrate"><img src="../images/carved.png" alt="carved"></div>
+            <p>Because your wedding day is all about you...</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="bridal" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Elegant cupcakes</h1>
+            <div class="celebrate"><img src="../images/cupcake-1.jpg" alt="bridal"></div>
+            <p>So elegant... you don't wanna eat it.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="cookies" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Gogeous cookies</h1>
+            <div class="celebrate"><img src="../images/elegant-cookies1.jpg" alt="cookies"></div>
+            <p>So gorgeous... you don't wanna eat it.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="cakepop" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Cake pops- dressed to kill</h1>
+            <div class="celebrate"><img src="../images/dressed2kill.jpeg" alt="cakepop"></div>
+            <p>watch out ... he is mine.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Gogeous cookies</h1>
+            <div class="celebrate"><img src="../images/cupcake-1.jpg" alt=""></div>
+            <p>So gorgeous... you don't wanna eat it.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="macaron" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>What is so french about macaron?</h1>
+            <div class="celebrate"><img src="../images/macaron1.jpg" alt="macaron"></div>
+            <p>Little randon hapiness.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+
+    <section data-role="page" id="buffet" data-dialog="true" data-close-btn="right">
+        <main data-role="main" class="ui-content">
+            <h1>Elegant wedding desser table</h1>
+            <div class="celebrate"><img src="../images/dessert.png" alt="buffet"></div>
+            <p>Dessert buffet is a must.</p>
+            <a href="#designs">close</a>
+        </main>
+    </section>
+</body>
+
+</html>
